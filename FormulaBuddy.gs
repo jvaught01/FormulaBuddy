@@ -52,16 +52,9 @@ function generateFormula() {
 
   // remove the carriage returns from the formula
   formula = formula.replace(/(\r\n|\n|\r:)/gm,"");
-
-  // // remove :
-  // formula = formula.replace(/:/,"");
-  
-  //  // remove =
-  // formula = formula.replace(/=/,"");
-
-  // Set the formula in the specified cell
-  selectedCell.setValue(formula);
 }
+
+
 //Open creator profile on tiktok
 function openCreatorProfile() {
   var url = "https://www.tiktok.com/@juliovaught8";
