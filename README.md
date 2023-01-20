@@ -17,6 +17,9 @@
 10. In the Google Sheet, refresh the sheet and you will see the new menu "Formula Generation"
 11. Select the cell you want to generate formula for, click on "Formula Generation" and select "generate formula"
 12. You will need to give the script permission to run! Follow onscreen instructions!
+
+
+
 Note: 
 - The script will only work if the API key is added to line 39 called "Authorizations".
 - The script is using the `davinci-codex` engine.
